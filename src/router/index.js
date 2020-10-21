@@ -1,8 +1,9 @@
 import Vue from "vue";
 import VueRouter from "vue-router";
 import SignupPage from "../views/SignUp.vue";
-import LoginPage from "../views/Login.vue";
+import FeedPage from "../views/Feed.vue";
 import AccountPage from "../views/Account.vue";
+
 
 Vue.use(VueRouter);
 
@@ -13,9 +14,9 @@ const routes = [
     component: SignupPage
   },
   {
-    path: "/login",
-    name: "login-page",
-    component: LoginPage
+    path: "/feed",
+    name: "feed-page",
+    component: FeedPage
   },
   {
     path: "/account",

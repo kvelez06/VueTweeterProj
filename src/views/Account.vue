@@ -1,7 +1,7 @@
 <template>
     <div>
-<h1>TEST</h1>
-<account-form></account-form>
+        <h1>TESTTTSSS</h1>
+        <account-form></account-form>
     </div>
 </template>
 
