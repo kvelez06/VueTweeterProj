@@ -31,8 +31,8 @@ export default {
           method: "POST",
           url: "https://tweeterest.ml/api/login",
           headers: {
-            "Content-Type": "application/json",
-            "X-Api-Key": "fOytoHincX2T35xWW2Dmx6U6D21Q2Z2DedeWJPo9F3hLC"
+                        "Content-Type": "application/json",
+                        "X-Api-Key": "r1zJurKuPghQvWMMdapdXMYen12iomad4raAC88YPaQBR"
           },
           data: {
             email: this.email,

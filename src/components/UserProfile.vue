@@ -1,16 +1,17 @@
 <template>
   <div>
-    <h2 id="name-user">Hello, {{ user.userId }}.</h2>
-    <h3>
-    <h3 v-for="user in users" :key="user">
+    <h3 id="name-user">Hello, {{ user.userId }}. </h3>
+    <h4>
+    <h4 v-for="user in users" :key="user">
       {{ user.email }}
       {{ user.birthdate }}
       {{ user.bio }}
-    </h3>
+    </h4>
   </div>
 </template>
+
 <script>
-// import cookies from "vue-cookies";
+
 import axios from "axios";
 export default {
   name: "user-profile",
@@ -18,7 +19,7 @@ export default {
     return {
       email: "",
       birthdate: "",
-      bio: ""
+      bio: "",
       users: []
     };
   },
@@ -48,7 +49,8 @@ export default {
     }
   }
 };
-  };
+
 </script>
+
 
 <style lang="scss" scoped></style>

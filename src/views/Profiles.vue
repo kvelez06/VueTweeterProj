@@ -1,7 +1,6 @@
 <template>
-  <div class="profile"></div>
   <div class="profile">
-    <user-profile />
+    <user-profile></user-profile>
   </div>
 </template>
 
